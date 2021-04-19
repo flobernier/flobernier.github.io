@@ -1,4 +1,0 @@
-[submodule "static"]
-	path = static
-	url = https://github.com/flobernier/ghp-pdf
-	branch = dev
