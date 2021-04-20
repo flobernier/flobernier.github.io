@@ -10,15 +10,23 @@ The features of the buoy are:
 QGroundControl is used to display the Mavlink message (gps position on a map)
 - Save gps position in a csv file on the sd card
 
-Initial buoy architecture:    
+### Architecture    
 ![GPS Architecture](/posts/gps_buoy/buoy_architecture.svg)
 
 The GPS used is a uBlox M8N. The processor used is a NanoPi NEO2. The embedded linux is Ubuntu 16.04. The software was implemented in C/C++.    
 The buoy case is a waterproof ERMET flight case from Conex.    
 ![GPS Buoy Inside](/posts/gps_buoy/gps_buoy_1.JPG)
 
+&nbsp;
+
+### Test    
 The buoy was tested on the Etang de Cazaux-Sanguinet in July 2020:    
 ![GPS Buoy Test 1](/posts/gps_buoy/gps_buoy_test_1.JPG)
+
+[GPS Buoy trajectory on interactive map](/posts/gps_buoy/buoy_map_1.html)    
+
+![GPS Buoy Test 1](/posts/gps_buoy/buoy_map_1.png)
+
 
 
 
